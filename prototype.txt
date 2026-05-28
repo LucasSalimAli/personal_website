@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Website Pessoal</title>
+
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="assets\css\style.css" rel="stylesheet">
+
+
+
+
+
+</head>
+
+
+
+<body>
+
+
+
+
+
+    <header>
+
+
+
+        <!--NavBar-->
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+
+            <div class="container-fluid">
+
+                <a class="navbar-brand fw-bold" href="#">Lucas-Salim</a>
+
+
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+
+                    <ul class="navbar-nav">
+
+                        <li class="nav-item">
+
+                            <a class="nav-link" aria-current="page" href="#">Sobre o Lucas</a>
+
+                        </li>
+
+                        <li class="nav-item">
+
+                            <a class="nav-link" href="#grad">Graduações</a>
+
+                        </li>
+
+                        <li class="nav-item">
+
+                            <a class="nav-link" href="#exp">Experiencias profissionais</a>
+
+                        </li>
+
+                        <li class="nav-item">
+
+                            <a class="nav-link" href="#">Projetos</a>
+
+
+
+                        </li>
+
+                        <li class="nav-item">
+
+                            <a class="nav-link" href="#">Contato</a>
+
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+
+<!--<a href="mailto:seu.email@provedor.com" class="text-decoration-none text-dark fw-semibold">-->
+                                        
+                                    </a>
+
+
+
+    <main class="mt-3 py-5">
+
+
+
+        <section id="hero" class="bg-dark text-white d-flex " style="min-height: 50vh;">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-12 col-md-6">
+
+                        <br>
+
+
+
+                        <h1>Apresentação</h1>
+
+
+
+                        <p>
+
+                            Olá, me chamo Lucas, tenho 20 anos, e atualmente curso Desenvolvimento de Software
+
+                            Multiplataforma na Fatec-jahu. O Objetivo desse site é servir como portifólio para os meus
+
+                            projetos e como cartão de apresentãção para outras pessoas.
+
+                        </p>
+
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+
+
+
+
+        <section id="eu" class="bg-light py-5">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-12 col-md-9">
+
+                        <h3> Sobre o Lucas</h3>
+
+
+
+                        <p>Lucas Salim Ali Teixeira é um homem nascido em Bauru-SP. Viveu sua vida toda em
+
+                            Pederneiras-SP, e
+
+                            agora está buscando uma graduação de nível superior.
+
+                            Aos 17 anos se formou no ensino médio com Honra-ao-Mérito e desde então prestou vestibulares
+
+                            em
+
+                            busca de seu sonho.
+
+                            Aos 18 anos fez cursinho e aos 19 ingressou em uma faculdade particular, entretanto,
+
+                            abandounou
+
+                            o curso após um ano cursado por não satisfazer suas espectativas.
+
+                            Aos 20 anos entrou na Fatec-Jahu, e atualmente está cursando Desenvolvimento de Software
+
+                            Multiplataforma.
+
+                        </p>
+
+
+
+                        <p>Em desenvolvimento de software, ja desenvolveu alguns projetos como uma versão da máquina
+
+                            Enigma e atualmente está desenvolvendo um sistema para uma empresa em colaboração com seu
+
+                            grupo da faculdade.</p>
+
+
+
+                        <p>Gosta de escrever histórias de ficção e atualmente já possui três publicadas, com mais
+
+                            algumas
+
+                            esquematizadas e escritas para publicação futura.</p>
+
+
+
+                    </div>
+
+
+
+                    <div class="col-12 col-md-3">
+
+                        <img src="assets\img\Shirou4.jpg" class="img-fluid w-75"
+                            style="max-width: 300px; aspect-ratio: 3/4; object-fit: cover;">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+        </section>
+
+
+
+
+
+
+
+        <section id="grad" class="bg-dark text-white py-5">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-12 col-md-9">
+
+
+
+                        <h3>Graduações</h3>
+
+
+
+                        <ul>
+
+                            <li>2021-2023 Graduado no Ensino Médio pela escola Coedup</li>
+
+                            <li>2025-2025 Cursado Bacharelado em Ciência da Computação na Unip-Bauru (incompleto)</li>
+
+                            <li>2026-#### Inicio da graduação em Desenvolvimento de Software Multiplataforma (DSM) na
+
+                                Fatec-Jahu</li>
+
+                        </ul>
+
+
+
+                        <br><br><br>
+
+
+
+                        <h3>Cursos</h3>
+
+
+
+                        <ul>
+
+                            <li>2021 - Intensivo de Python (Hashtag Treinamentos)</li>
+
+                            <li>2025 - Curso de Git e Github (Curso em Video)</li>
+
+                        </ul>
+
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+
+        </section>
+
+
+
+
+
+
+
+        <section id="exp" class="bg-light py-5">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-12 col-md-9">
+
+                        <h3>Experiências Profissionais</h3>
+
+                        <ul>
+
+                            <li>2026 - Hackaton P.I.</li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <section id="projects" class="bg-dark py-5">
+
+            <div class="container">
+
+                <div class="row justify-content-center g-10">
+
+
+
+                    <div class="col-12 col-md-3">
+
+
+
+                        <div class="card" style="width: 18rem;">
+
+                            <img src="assets\img\book-209.png" class="card-img-top" alt="..."
+                                style="max-width: 150px; aspect-ratio: 1/1;">
+
+                            <div class="card-body">
+
+                                <h5 class="card-title">Minhas Histórias</h5>
+
+                                <p class="card-text">Histórias ficticias criadas por puro Hobby, mas que ficaram boas o
+
+                                    suficiente para publicar.</p>
+
+                                <a href="#" class="btn btn-primary">Ir para o Site</a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+
+
+                    <div class="col-12 col-md-3">
+
+                        <div class="card" style="width: 18rem;">
+
+                            <img src="assets\img\pngtree-server-encryption-line-icon-png-image_9009056.png"
+                                class="card-img-top" alt="..." style="max-width: 150px; aspect-ratio: 1/1;">
+
+                            <div class="card-body">
+
+                                <h5 class="card-title">Máquina Enigma</h5>
+
+                                <p class="card-text">Uma versão da máquina Enigma utilizada na segunda guerra pela união
+
+                                    soviética, recriada em Python.</p>
+
+                                <a href="#" class="btn btn-primary">Ir para o Site</a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="col-12 col-md-3">
+
+                        <div class="card" style="width: 18rem;">
+
+                            <img src="assets\img\5316109.png" class="card-img-top" alt="..."
+                                style="max-width: 150px; aspect-ratio: 1/1;">
+
+                            <div class="card-body">
+
+                                <h5 class="card-title">Projeto P.I. Húmus compostagem</h5>
+
+                                <p class="card-text">Projeto realizado na Fatec-Jahu, para auxiliar uma empresa.</p>
+
+                                <a href="#" class="btn btn-primary">Ir para o Site</a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+
+
+
+
+    </main>
+
+
+
+
+
+</body>
+
+
+
+</html>

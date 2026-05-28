@@ -1,0 +1,52 @@
+ 
+ body {
+     font-family: 'Plus Jakarta Sans', sans-serif;
+     background-color: #f8f9fa;
+     /* Fundo geral off-white muito suave */
+     color: #2d3748;
+ }
+
+ .navbar {
+     background-color: rgba(255, 255, 255, 0.85) !important;
+     backdrop-filter: blur(10px);
+     /* Efeito de vidro fosco na barra do topo */
+ }
+
+ .section-padding {
+     padding: 100px 0;
+     /* Espaçamento elegante entre seções */
+ }
+
+ .custom-card {
+     border: none;
+     border-radius: 16px;
+     background: #ffffff;
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
+ }
+
+ .custom-card:hover {
+     transform: translateY(-5px);
+     /* Card dá uma leve flutuada ao passar o mouse */
+     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08) !important;
+ }
+
+ .text-gradient {
+     background: linear-gradient(45deg, #4f46e5, #06b6d4);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+ }
+
+ .btn-custom {
+     background: linear-gradient(45deg, #520b8c, #06b6d4);
+     color: white;
+     border: none;
+     border-radius: 8px;
+     padding: 10px 24px;
+     font-weight: 600;
+     transition: opacity 0.2s;
+ }
+
+ .btn-custom:hover {
+     opacity: 0.6;
+     color: white;
+ }
